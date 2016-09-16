@@ -1,0 +1,16 @@
+PODS:
+  - FALanguage (0.1.0)
+
+DEPENDENCIES:
+  - FALanguage (from `../`)
+
+EXTERNAL SOURCES:
+  FALanguage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FALanguage: 45017773a7e0a0298ede5d3c46c50c997f7df886
+
+PODFILE CHECKSUM: 19ba733b775970fbe5683f996240e59f4de76f50
+
+COCOAPODS: 1.0.1

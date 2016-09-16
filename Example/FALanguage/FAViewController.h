@@ -11,3 +11,9 @@
 @interface FAViewController : UIViewController
 
 @end
+
+@interface FAViewController2 : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIView *redView;
+
+@end

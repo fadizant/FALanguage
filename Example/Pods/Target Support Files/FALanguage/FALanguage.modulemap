@@ -1,0 +1,6 @@
+framework module FALanguage {
+  umbrella header "FALanguage-umbrella.h"
+
+  export *
+  module * { export * }
+}
