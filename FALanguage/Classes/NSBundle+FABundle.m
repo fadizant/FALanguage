@@ -20,6 +20,8 @@ static const char _bundle=0;
 -(NSString*)localizedStringForKey:(NSString *)key value:(NSString *)value table:(NSString *)tableName
 {
     NSBundle* bundle=objc_getAssociatedObject(self, &_bundle);
+    if (!bundle)
+        bundle = [NSBundle bundleWithPath:[[ NSBundle mainBundle ] pathForResource:@"Base" ofType:@"lproj" ]];
     return bundle ? [bundle localizedStringForKey:key value:value table:tableName] : [super localizedStringForKey:key value:value table:tableName];
 }
 
