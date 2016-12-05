@@ -13,5 +13,5 @@
 + (void)setLanguage:(NSString *)language;
 + (BOOL)languageChanged;
 + (BOOL)isDeviceLanguageRightToLeft;
-
++ (void)updateLayout;
 @end

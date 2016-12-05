@@ -48,11 +48,15 @@ static bool languageChanged;
     
     languageChanged = YES;
     
-    
+    [self updateLayout];
+}
+
++(void)updateLayout
+{
     [[UIView appearance] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
     [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UINavigationController class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
     [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UITabBar class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
-
+    [[UITextField appearance] setTextAlignment:[self isDeviceLanguageRightToLeft] ? NSTextAlignmentRight : NSTextAlignmentLeft] ;
 }
 
 +(BOOL)languageChanged {
