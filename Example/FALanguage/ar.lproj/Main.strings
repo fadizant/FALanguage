@@ -1,9 +1,8 @@
-
 /* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "0Ds-X2-ekx"; */
 "0Ds-X2-ekx.normalTitle" = "عربي";
 
 /* Class = "UIButton"; normalTitle = "Hide View"; ObjectID = "4Ba-Al-WOB"; */
-"4Ba-Al-WOB.normalTitle" = "اخفى المربع";
+"4Ba-Al-WOB.normalTitle" = "زر";
 
 /* Class = "UIButton"; normalTitle = "English"; ObjectID = "5wn-2j-57l"; */
 "5wn-2j-57l.normalTitle" = "اجنبي";
@@ -16,3 +15,19 @@
 
 /* Class = "UIViewController"; title = "Sec View"; ObjectID = "z8f-Gg-Vyr"; */
 "z8f-Gg-Vyr.title" = "الشاشة الثانية";
+
+/* Class = "UITextField"; placeholder = "Placeholder"; ObjectID = "6tL-aA-OAj"; */
+"6tL-aA-OAj.placeholder" = "ادخل النص";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "xHY-dU-HHH"; */
+"xHY-dU-HHH.normalTitle" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "xHY-dU-HHH"; */
+"1fQ-Y3-N4N.normalTitle" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "0Ds-X2-ekx"; */
+"epc-dL-6Jg.normalTitle" = "عربي";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "5wn-2j-57l"; */
+"J6B-ss-one.normalTitle" = "اجنبي";
+

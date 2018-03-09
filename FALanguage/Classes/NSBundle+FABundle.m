@@ -8,6 +8,8 @@
 
 #import "NSBundle+FABundle.h"
 #import <objc/runtime.h>
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
 
 static const char _bundle=0;
 
@@ -42,8 +44,8 @@ static bool languageChanged;
     objc_setAssociatedObject([NSBundle mainBundle], &_bundle, language ? [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:language ofType:@"lproj"]] : nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
     [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:language, nil] forKey:@"AppleLanguages"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [[NSUserDefaults standardUserDefaults] setValue:language forKey:@"AppLanguage"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     
     
     languageChanged = YES;
@@ -53,10 +55,19 @@ static bool languageChanged;
 
 +(void)updateLayout
 {
-    [[UIView appearance] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
-    [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UINavigationController class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
-    [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UITabBar class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
-    [[UITextField appearance] setTextAlignment:[self isDeviceLanguageRightToLeft] ? NSTextAlignmentRight : NSTextAlignmentLeft] ;
+    if(SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"9.0")) {
+        [[UIView appearance] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UINavigationController class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UIViewController class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UIView class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UINavigationBar class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UITabBar class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UIView appearanceWhenContainedInInstancesOfClasses:@[[UIAlertController class]]] setSemanticContentAttribute:[self isDeviceLanguageRightToLeft] ? UISemanticContentAttributeForceRightToLeft : UISemanticContentAttributeForceLeftToRight];
+        [[UITextField appearance] setTextAlignment:[self isDeviceLanguageRightToLeft] ? NSTextAlignmentRight : NSTextAlignmentLeft] ;
+
+        
+    }
+    
 }
 
 +(BOOL)languageChanged {

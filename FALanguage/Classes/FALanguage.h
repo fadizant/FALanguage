@@ -10,6 +10,7 @@
 #define FALanguage_h
 
 #import "NSBundle+FABundle.h"
-#import "UIView+FAUIView.h"
+#import "UIView+FALanguageView.h"
+#import "UINavigationController+FALanguageNavigationController.h"
 
 #endif /* FALanguage_h */

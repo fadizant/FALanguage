@@ -1,8 +1,19 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
 
 #import "FALanguage.h"
 #import "NSBundle+FABundle.h"
-#import "UIView+FAUIView.h"
+#import "UINavigationController+FALanguageNavigationController.h"
+#import "UIView+FALanguageView.h"
 
 FOUNDATION_EXPORT double FALanguageVersionNumber;
 FOUNDATION_EXPORT const unsigned char FALanguageVersionString[];

@@ -9,6 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## How to use
+
+### ObjC
+```ruby
+// en = language code
+[NSBundle setLanguage:@"en"];
+
+//you need to reload window.rootViewController
+AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+appDelegate.window.rootViewController = [self.storyboard instantiateInitialViewController];
+[appDelegate.window makeKeyAndVisible];
+```
+
+### Swift4
+```ruby
+// en = language code
+Bundle.setLanguage("en")
+
+//you need to reload window.rootViewController
+let appDelegate = UIApplication.shared.delegate
+appDelegate?.window??.rootViewController = self.storyboard?.instantiateInitialViewController()
+appDelegate?.window??.makeKeyAndVisible()
+```
+
 ## Requirements
 
 iOS 9.0+
@@ -29,3 +53,4 @@ fadizant, fadizant@hotmail.com
 ## License
 
 FALanguage is available under the MIT license. See the LICENSE file for more info.
+

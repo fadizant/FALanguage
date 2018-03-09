@@ -7,174 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FFA499E37397DCAE50BFE0699D015B0 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B81A3F437641CB8056E9F5817B5237A1 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23174C6D4681CFD4494BB3A40E89ED46 /* NSBundle+FABundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 11912DF28D52510233F45768287531AB /* NSBundle+FABundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D259AF2C0BDCDA18B0395F2B1043836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3F1B1A04E21125A06E13C27601BD8B05 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D87249BB85E183905C480E8C83330D /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */; };
-		4B162751086516885C38113218FB0774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6E46B7A42AA243FFD98E6683C98CFE04 /* FALanguage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C029DF17E75AA1E9EF1F3F5ACDF1C73 /* FALanguage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA851903B67643762B25A08E8F75FD05 /* NSBundle+FABundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C962D568355037EF32E45B022A3288CB /* NSBundle+FABundle.m */; };
-		B5E3579614B1D0B27226CF97D8588746 /* FALanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4AEFCA1C39C37CB0538205CE24A016 /* FALanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4DA30AB40653FC296F30E6237740CE4 /* FALanguage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F7A69830E175710097EB68502D7E8 /* FALanguage-dummy.m */; };
-		D5C3834A0A4B3F8864E5859E770FBCE6 /* Pods-FALanguage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D5B3911716B843A59DA0DA56191DDC /* Pods-FALanguage_Example-dummy.m */; };
-		E8FEF36D56AD815F523CD42BAFDD3900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		EB2405319D51F5CA0F2A0736D0ACE51E /* UIView+FAUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7595A3A3E7DB8068C04394CDA6C2D681 /* UIView+FAUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD933B5AB5D3EFD1D64455B37B16F7BF /* UIView+FAUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08823ED0DCF2F0E7DF0CDDFEE7095A4 /* UIView+FAUIView.m */; };
-		FDC314BA502F8D326AE00CD2364513DD /* Pods-FALanguage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2510F7EF4C6410B13EEA95137EDDE241 /* Pods-FALanguage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FB8578F4FFA9A39EC31E8FA9C9CCCFD /* UIView+FALanguageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3589F266EFA2BF85D6B6A7D58C27A3BF /* UIView+FALanguageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D181C4704D4AA0A4AFEA099CAB7061 /* NSBundle+FABundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E5EC2197F2BC8A6B2D9B0FDF1393C /* NSBundle+FABundle.m */; };
+		3028190ACA541831C21FB009A721DA96 /* FALanguage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ADE8E642FB7DEDCF796EB059E917B4 /* FALanguage-dummy.m */; };
+		3CDABB4EA303482BEAFE35618302A9FA /* Pods-FALanguage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F42931F6EE54477E5C3E0997C85F8 /* Pods-FALanguage_Example-dummy.m */; };
+		4DBC1204D2562DD122CDC51AD88457F1 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F440E7319D925F11C234FD9F0F6C54 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C772200EA73BF957FABF1473716F81F /* FALanguage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7F853397D586E659DC12B97E1AEDAE /* FALanguage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70CC042CD19661F391C0D56D5445A97B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75AD63A5CAA83FAEB477503863BF5FF8 /* FALanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4270D913B4002EE9F358991C2875F6 /* FALanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8743B4B4C47B9EF2C43AC338FBFC8AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AA90C579E32B0E9D84516C0BEF2AC17A /* Pods-FALanguage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AA2EBF7CDF278F7CF81ABFC01EABFB /* Pods-FALanguage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E4D3CAEAD57DBC4E1CA921071ADB1 /* NSBundle+FABundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 880452AE38A5A6A258F250FB0C2CF3DD /* NSBundle+FABundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9F96B741D5CFF7DA2533D3389DF1196 /* UIView+FALanguageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FCD7D2A023CDFDFE8F004D6E098AC /* UIView+FALanguageView.m */; };
+		C3185A6D70B93FC80891769B62632A83 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C121A01C3BF1EE3B8100C0E8F22577 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */; };
+		C4BD96AFB15B3D3FA31DD8C0AA940688 /* UINavigationController+FALanguageNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3999DEBBF562D12E717C8C05E584D0 /* UINavigationController+FALanguageNavigationController.m */; };
+		D22291113B67C4810D93E4C88F1FCFDF /* UINavigationController+FALanguageNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9307FB3D4BFEFEC8CF4DC4766C3F6E18 /* UINavigationController+FALanguageNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECD0E6F032FDAF6717E0CBA0F99D914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		66F38F282A1A18AA5967207E450BE171 /* PBXContainerItemProxy */ = {
+		1DA05FF148468E19316C82B0C006041F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 270157ECD4EE0731AD8160B9E1C228CD;
+			remoteGlobalIDString = B18892A6635B1F89D27A79FA955599BD;
 			remoteInfo = FALanguage;
 		};
-		A6B4CB272AD8C6277C5B7DA1E389A086 /* PBXContainerItemProxy */ = {
+		BBC104F75AC41BD17E47A51BC9BA7BBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 270157ECD4EE0731AD8160B9E1C228CD;
+			remoteGlobalIDString = B18892A6635B1F89D27A79FA955599BD;
 			remoteInfo = FALanguage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10D5B3911716B843A59DA0DA56191DDC /* Pods-FALanguage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FALanguage_Example-dummy.m"; sourceTree = "<group>"; };
-		11912DF28D52510233F45768287531AB /* NSBundle+FABundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+FABundle.h"; sourceTree = "<group>"; };
-		1634BD9DDB0116B95F9F0A1D970B9A92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C029DF17E75AA1E9EF1F3F5ACDF1C73 /* FALanguage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FALanguage-umbrella.h"; sourceTree = "<group>"; };
-		22DDB24EA6F3E4F9DC11634873041E74 /* Pods-FALanguage_Example-FALanguage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-FALanguage_Tests-resources.sh"; sourceTree = "<group>"; };
-		2510F7EF4C6410B13EEA95137EDDE241 /* Pods-FALanguage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FALanguage_Example-umbrella.h"; sourceTree = "<group>"; };
-		25A2194D1C96E772B0D8D0221D8E6ABB /* Pods-FALanguage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FALanguage_Example.modulemap"; sourceTree = "<group>"; };
-		27D87249BB85E183905C480E8C83330D /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FALanguage_Example-FALanguage_Tests-dummy.m"; sourceTree = "<group>"; };
+		0DDA10CC55BB85EB2E643FFDF44B0E12 /* Pods-FALanguage_Example-FALanguage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FALanguage_Example-FALanguage_Tests.modulemap"; sourceTree = "<group>"; };
+		0F3999DEBBF562D12E717C8C05E584D0 /* UINavigationController+FALanguageNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FALanguageNavigationController.m"; path = "FALanguage/Classes/UINavigationController+FALanguageNavigationController.m"; sourceTree = "<group>"; };
+		13C560FBBBC66AB750CEB47C0968BBC6 /* FALanguage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FALanguage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DE62B524C8E6CDE5CB9F4D81B44941F /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BBAC9C8D66E4F410D620DF992DA0344 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C8B9744672D96471393A2591E2224FC /* Pods_FALanguage_Example_FALanguage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FALanguage_Example_FALanguage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9447DAFF9E0890B47420FBF4E7A366 /* Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2E22309B6C0C79AD71FFAEF9BF9FEA94 /* FALanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FALanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3848D7648ED27A9099F237DB5050D3F9 /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F15100DC310CF8CAAADAEAA85B57BB4 /* FALanguage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FALanguage.xcconfig; sourceTree = "<group>"; };
-		493AC1460665286EC5334E9FF7505096 /* Pods-FALanguage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-resources.sh"; sourceTree = "<group>"; };
-		51612845616F712CB415DD6E3310679B /* Pods-FALanguage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7595A3A3E7DB8068C04394CDA6C2D681 /* UIView+FAUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FAUIView.h"; sourceTree = "<group>"; };
-		78D32A7DF0FD2B96211D1A7F6D9741EC /* Pods-FALanguage_Example-FALanguage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FALanguage_Example-FALanguage_Tests.modulemap"; sourceTree = "<group>"; };
-		7A578853FB3FB239986FDD7B9BD171B6 /* Pods-FALanguage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E45D14286D73D9D1BBA26C85A98F833 /* Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8754DAAD79EECFED485E06293088672B /* Pods-FALanguage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FALanguage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ECD6B0B3C6C00B826CA92EB0A3D65FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302B56D4319EAC922D906F4D5E149A34 /* Pods-FALanguage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FALanguage_Example.modulemap"; sourceTree = "<group>"; };
+		3589F266EFA2BF85D6B6A7D58C27A3BF /* UIView+FALanguageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FALanguageView.h"; path = "FALanguage/Classes/UIView+FALanguageView.h"; sourceTree = "<group>"; };
+		35C121A01C3BF1EE3B8100C0E8F22577 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FALanguage_Example-FALanguage_Tests-dummy.m"; sourceTree = "<group>"; };
+		3893E5AD17DEE62FFF2753335F0B4B0E /* Pods-FALanguage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		44EB7238B281E9260B50AB2D15537739 /* FALanguage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FALanguage.modulemap; sourceTree = "<group>"; };
+		47F440E7319D925F11C234FD9F0F6C54 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FALanguage_Example-FALanguage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E7B76C8DA24990EBF295205C2F45616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66ADE8E642FB7DEDCF796EB059E917B4 /* FALanguage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FALanguage-dummy.m"; sourceTree = "<group>"; };
+		673F42931F6EE54477E5C3E0997C85F8 /* Pods-FALanguage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FALanguage_Example-dummy.m"; sourceTree = "<group>"; };
+		6C7F853397D586E659DC12B97E1AEDAE /* FALanguage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FALanguage-umbrella.h"; sourceTree = "<group>"; };
+		7578620114EFE751D1C64C185A025AFB /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		761E5EC2197F2BC8A6B2D9B0FDF1393C /* NSBundle+FABundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+FABundle.m"; path = "FALanguage/Classes/NSBundle+FABundle.m"; sourceTree = "<group>"; };
+		82240739921182C010A5441B9BAF4008 /* Pods-FALanguage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FALanguage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		880452AE38A5A6A258F250FB0C2CF3DD /* NSBundle+FABundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+FABundle.h"; path = "FALanguage/Classes/NSBundle+FABundle.h"; sourceTree = "<group>"; };
+		8C4270D913B4002EE9F358991C2875F6 /* FALanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FALanguage.h; path = FALanguage/Classes/FALanguage.h; sourceTree = "<group>"; };
+		8E36980060F0B1354201AB6CC69AF8B7 /* Pods-FALanguage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9020407EF92A52A2C01C4FAE28D02C89 /* Pods-FALanguage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-resources.sh"; sourceTree = "<group>"; };
+		9307FB3D4BFEFEC8CF4DC4766C3F6E18 /* UINavigationController+FALanguageNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FALanguageNavigationController.h"; path = "FALanguage/Classes/UINavigationController+FALanguageNavigationController.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AF6D5D86AE4372843F5661664FF22B2 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1A177044D90C36E6760B31BF6EE66FF /* Pods_FALanguage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FALanguage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DB077AFA996BF4C77D41ECD888CC2D /* Pods-FALanguage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FALanguage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC55643EB3EEAB48451D178947A8A636 /* FALanguage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FALanguage.modulemap; sourceTree = "<group>"; };
-		AD4AEFCA1C39C37CB0538205CE24A016 /* FALanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FALanguage.h; sourceTree = "<group>"; };
-		AF6A16CAF0D7BF004FB76F66C140050F /* FALanguage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FALanguage-prefix.pch"; sourceTree = "<group>"; };
-		B81A3F437641CB8056E9F5817B5237A1 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FALanguage_Example-FALanguage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BD1F7A69830E175710097EB68502D7E8 /* FALanguage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FALanguage-dummy.m"; sourceTree = "<group>"; };
-		C07D5306347FB77BE11A2EFEF3BA4395 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C962D568355037EF32E45B022A3288CB /* NSBundle+FABundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+FABundle.m"; sourceTree = "<group>"; };
-		C9DCA0682DA5A6D2F8CA04EF092F3398 /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF16D9C42858C3EFF215891555FF0557 /* Pods-FALanguage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F08823ED0DCF2F0E7DF0CDDFEE7095A4 /* UIView+FAUIView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FAUIView.m"; sourceTree = "<group>"; };
-		F6B3432570D8119F84295226802594BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D2E040076507735AF26C2DEE228C88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B123C7AA9008C162CD9C791794D22F81 /* FALanguage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FALanguage-prefix.pch"; sourceTree = "<group>"; };
+		BB8DD47624782B5EC5ADE8C265DF9767 /* Pods-FALanguage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FALanguage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3FB7D9787AF738907CEFFDF8D842CBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A8484ED7FBE94686A773F4A5C4BD01 /* Pods-FALanguage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D600E4CBCBBF99E8A93B1C3244D609C9 /* Pods-FALanguage_Example-FALanguage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FALanguage_Example-FALanguage_Tests-resources.sh"; sourceTree = "<group>"; };
+		DA0BAA6F9CE3AA5CA198D7F37CE02C13 /* FALanguage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FALanguage.xcconfig; sourceTree = "<group>"; };
+		E6AA2EBF7CDF278F7CF81ABFC01EABFB /* Pods-FALanguage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FALanguage_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED386FD6B3E5E48C0D034AB4B1D22457 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F15B52F8E19FC726C3CC71F2D673397E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F56DC55908DABD9EFAF9757706ABE662 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0FCD7D2A023CDFDFE8F004D6E098AC /* UIView+FALanguageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FALanguageView.m"; path = "FALanguage/Classes/UIView+FALanguageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30A02C4578FCFD679997C826C6886A45 /* Frameworks */ = {
+		1D41AEA1D8466D99F48A9E8D6A1FA306 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FEF36D56AD815F523CD42BAFDD3900 /* Foundation.framework in Frameworks */,
+				8743B4B4C47B9EF2C43AC338FBFC8AC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A8B878D882FD2ED4E5ACF904FF3C7CB /* Frameworks */ = {
+		9E358BEF44AAA831B5CD430375059B70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D259AF2C0BDCDA18B0395F2B1043836 /* Foundation.framework in Frameworks */,
+				EECD0E6F032FDAF6717E0CBA0F99D914 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF212492C0A4E17B51F123E99283B54F /* Frameworks */ = {
+		FE1ED32C2D967B67F26E2042A6C045D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B162751086516885C38113218FB0774 /* Foundation.framework in Frameworks */,
+				70CC042CD19661F391C0D56D5445A97B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3493DC92836AB5BD7A8F57056B89ABFA /* Classes */ = {
+		07FE318B2B44EFCA6C9324FA4A41103C /* FALanguage */ = {
 			isa = PBXGroup;
 			children = (
-				AD4AEFCA1C39C37CB0538205CE24A016 /* FALanguage.h */,
-				11912DF28D52510233F45768287531AB /* NSBundle+FABundle.h */,
-				C962D568355037EF32E45B022A3288CB /* NSBundle+FABundle.m */,
-				7595A3A3E7DB8068C04394CDA6C2D681 /* UIView+FAUIView.h */,
-				F08823ED0DCF2F0E7DF0CDDFEE7095A4 /* UIView+FAUIView.m */,
+				8C4270D913B4002EE9F358991C2875F6 /* FALanguage.h */,
+				880452AE38A5A6A258F250FB0C2CF3DD /* NSBundle+FABundle.h */,
+				761E5EC2197F2BC8A6B2D9B0FDF1393C /* NSBundle+FABundle.m */,
+				9307FB3D4BFEFEC8CF4DC4766C3F6E18 /* UINavigationController+FALanguageNavigationController.h */,
+				0F3999DEBBF562D12E717C8C05E584D0 /* UINavigationController+FALanguageNavigationController.m */,
+				3589F266EFA2BF85D6B6A7D58C27A3BF /* UIView+FALanguageView.h */,
+				FD0FCD7D2A023CDFDFE8F004D6E098AC /* UIView+FALanguageView.m */,
+				C60F50B70E95177C56CE7D1057E1D9A1 /* Pod */,
+				8E0DF553375AE8EA894C725FD74F8468 /* Support Files */,
 			);
-			path = Classes;
+			name = FALanguage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		73F8BE690C2A8874B290709AD6B8919F /* Pods-FALanguage_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				A4D2E040076507735AF26C2DEE228C88 /* Info.plist */,
+				302B56D4319EAC922D906F4D5E149A34 /* Pods-FALanguage_Example.modulemap */,
+				82240739921182C010A5441B9BAF4008 /* Pods-FALanguage_Example-acknowledgements.markdown */,
+				BB8DD47624782B5EC5ADE8C265DF9767 /* Pods-FALanguage_Example-acknowledgements.plist */,
+				673F42931F6EE54477E5C3E0997C85F8 /* Pods-FALanguage_Example-dummy.m */,
+				D5A8484ED7FBE94686A773F4A5C4BD01 /* Pods-FALanguage_Example-frameworks.sh */,
+				9020407EF92A52A2C01C4FAE28D02C89 /* Pods-FALanguage_Example-resources.sh */,
+				E6AA2EBF7CDF278F7CF81ABFC01EABFB /* Pods-FALanguage_Example-umbrella.h */,
+				8E36980060F0B1354201AB6CC69AF8B7 /* Pods-FALanguage_Example.debug.xcconfig */,
+				3893E5AD17DEE62FFF2753335F0B4B0E /* Pods-FALanguage_Example.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5F7F40387FA0F1B27D15ADA3D0F2582D /* Pods-FALanguage_Example-FALanguage_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F6B3432570D8119F84295226802594BA /* Info.plist */,
-				78D32A7DF0FD2B96211D1A7F6D9741EC /* Pods-FALanguage_Example-FALanguage_Tests.modulemap */,
-				3848D7648ED27A9099F237DB5050D3F9 /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown */,
-				C9DCA0682DA5A6D2F8CA04EF092F3398 /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist */,
-				27D87249BB85E183905C480E8C83330D /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */,
-				7E45D14286D73D9D1BBA26C85A98F833 /* Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh */,
-				22DDB24EA6F3E4F9DC11634873041E74 /* Pods-FALanguage_Example-FALanguage_Tests-resources.sh */,
-				B81A3F437641CB8056E9F5817B5237A1 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */,
-				9AF6D5D86AE4372843F5661664FF22B2 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */,
-				C07D5306347FB77BE11A2EFEF3BA4395 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */,
-			);
-			name = "Pods-FALanguage_Example-FALanguage_Tests";
-			path = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests";
+			name = "Pods-FALanguage_Example";
+			path = "Target Support Files/Pods-FALanguage_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EC80362D4B57964B2A038F4D7D5D4359 /* Development Pods */,
+				87EDF5F16EF9453BBBA9878FC74652A0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				DB671B3CAC3845119AB77A925E8CB70C /* Products */,
 				DE69567145AF4C7DCDFD89CF04A64690 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82E8CFAACFA463170CE72665D5716975 /* FALanguage */ = {
+		87EDF5F16EF9453BBBA9878FC74652A0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C796D877AF8A4F2046BAE088AFA0C0F8 /* FALanguage */,
-				97EA242A77C5A4D7C661EFD10AE3E97A /* Support Files */,
+				07FE318B2B44EFCA6C9324FA4A41103C /* FALanguage */,
 			);
-			name = FALanguage;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		97EA242A77C5A4D7C661EFD10AE3E97A /* Support Files */ = {
+		8E0DF553375AE8EA894C725FD74F8468 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC55643EB3EEAB48451D178947A8A636 /* FALanguage.modulemap */,
-				3F15100DC310CF8CAAADAEAA85B57BB4 /* FALanguage.xcconfig */,
-				BD1F7A69830E175710097EB68502D7E8 /* FALanguage-dummy.m */,
-				AF6A16CAF0D7BF004FB76F66C140050F /* FALanguage-prefix.pch */,
-				1C029DF17E75AA1E9EF1F3F5ACDF1C73 /* FALanguage-umbrella.h */,
-				1634BD9DDB0116B95F9F0A1D970B9A92 /* Info.plist */,
+				44EB7238B281E9260B50AB2D15537739 /* FALanguage.modulemap */,
+				DA0BAA6F9CE3AA5CA198D7F37CE02C13 /* FALanguage.xcconfig */,
+				66ADE8E642FB7DEDCF796EB059E917B4 /* FALanguage-dummy.m */,
+				B123C7AA9008C162CD9C791794D22F81 /* FALanguage-prefix.pch */,
+				6C7F853397D586E659DC12B97E1AEDAE /* FALanguage-umbrella.h */,
+				C3FB7D9787AF738907CEFFDF8D842CBD /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FALanguage";
@@ -183,17 +185,27 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C796D877AF8A4F2046BAE088AFA0C0F8 /* FALanguage */ = {
+		C60F50B70E95177C56CE7D1057E1D9A1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3493DC92836AB5BD7A8F57056B89ABFA /* Classes */,
+				13C560FBBBC66AB750CEB47C0968BBC6 /* FALanguage.podspec */,
+				F15B52F8E19FC726C3CC71F2D673397E /* LICENSE */,
+				4E7B76C8DA24990EBF295205C2F45616 /* README.md */,
 			);
-			path = FALanguage;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		DB671B3CAC3845119AB77A925E8CB70C /* Products */ = {
@@ -209,78 +221,107 @@
 		DE69567145AF4C7DCDFD89CF04A64690 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E16F9AD024F9505C74EC0D49ACE6D8F3 /* Pods-FALanguage_Example */,
-				5F7F40387FA0F1B27D15ADA3D0F2582D /* Pods-FALanguage_Example-FALanguage_Tests */,
+				73F8BE690C2A8874B290709AD6B8919F /* Pods-FALanguage_Example */,
+				FA885D1FE6429FD9AEF6F2A5AB61CD57 /* Pods-FALanguage_Example-FALanguage_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E16F9AD024F9505C74EC0D49ACE6D8F3 /* Pods-FALanguage_Example */ = {
+		FA885D1FE6429FD9AEF6F2A5AB61CD57 /* Pods-FALanguage_Example-FALanguage_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8ECD6B0B3C6C00B826CA92EB0A3D65FB /* Info.plist */,
-				25A2194D1C96E772B0D8D0221D8E6ABB /* Pods-FALanguage_Example.modulemap */,
-				A1DB077AFA996BF4C77D41ECD888CC2D /* Pods-FALanguage_Example-acknowledgements.markdown */,
-				8754DAAD79EECFED485E06293088672B /* Pods-FALanguage_Example-acknowledgements.plist */,
-				10D5B3911716B843A59DA0DA56191DDC /* Pods-FALanguage_Example-dummy.m */,
-				51612845616F712CB415DD6E3310679B /* Pods-FALanguage_Example-frameworks.sh */,
-				493AC1460665286EC5334E9FF7505096 /* Pods-FALanguage_Example-resources.sh */,
-				2510F7EF4C6410B13EEA95137EDDE241 /* Pods-FALanguage_Example-umbrella.h */,
-				DF16D9C42858C3EFF215891555FF0557 /* Pods-FALanguage_Example.debug.xcconfig */,
-				7A578853FB3FB239986FDD7B9BD171B6 /* Pods-FALanguage_Example.release.xcconfig */,
+				F56DC55908DABD9EFAF9757706ABE662 /* Info.plist */,
+				0DDA10CC55BB85EB2E643FFDF44B0E12 /* Pods-FALanguage_Example-FALanguage_Tests.modulemap */,
+				7578620114EFE751D1C64C185A025AFB /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.markdown */,
+				1DE62B524C8E6CDE5CB9F4D81B44941F /* Pods-FALanguage_Example-FALanguage_Tests-acknowledgements.plist */,
+				35C121A01C3BF1EE3B8100C0E8F22577 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m */,
+				2D9447DAFF9E0890B47420FBF4E7A366 /* Pods-FALanguage_Example-FALanguage_Tests-frameworks.sh */,
+				D600E4CBCBBF99E8A93B1C3244D609C9 /* Pods-FALanguage_Example-FALanguage_Tests-resources.sh */,
+				47F440E7319D925F11C234FD9F0F6C54 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h */,
+				2BBAC9C8D66E4F410D620DF992DA0344 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */,
+				ED386FD6B3E5E48C0D034AB4B1D22457 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */,
 			);
-			name = "Pods-FALanguage_Example";
-			path = "Target Support Files/Pods-FALanguage_Example";
-			sourceTree = "<group>";
-		};
-		EC80362D4B57964B2A038F4D7D5D4359 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82E8CFAACFA463170CE72665D5716975 /* FALanguage */,
-			);
-			name = "Development Pods";
+			name = "Pods-FALanguage_Example-FALanguage_Tests";
+			path = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29490FCB91E3721D4CB0B4D323A6F671 /* Headers */ = {
+		8650C308E176CF93B3B7A94B38068EF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E46B7A42AA243FFD98E6683C98CFE04 /* FALanguage-umbrella.h in Headers */,
-				B5E3579614B1D0B27226CF97D8588746 /* FALanguage.h in Headers */,
-				23174C6D4681CFD4494BB3A40E89ED46 /* NSBundle+FABundle.h in Headers */,
-				EB2405319D51F5CA0F2A0736D0ACE51E /* UIView+FAUIView.h in Headers */,
+				4DBC1204D2562DD122CDC51AD88457F1 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		389AC4576CE111BBE7EFF71D998A5419 /* Headers */ = {
+		DEB4ABE2594992A5094CE79E404ED50D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC314BA502F8D326AE00CD2364513DD /* Pods-FALanguage_Example-umbrella.h in Headers */,
+				AA90C579E32B0E9D84516C0BEF2AC17A /* Pods-FALanguage_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8E7FC9DDB44EAABB7390DB45AF776F1 /* Headers */ = {
+		F8B210A42C2C899B08532AE681978A46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFA499E37397DCAE50BFE0699D015B0 /* Pods-FALanguage_Example-FALanguage_Tests-umbrella.h in Headers */,
+				6C772200EA73BF957FABF1473716F81F /* FALanguage-umbrella.h in Headers */,
+				75AD63A5CAA83FAEB477503863BF5FF8 /* FALanguage.h in Headers */,
+				B73E4D3CAEAD57DBC4E1CA921071ADB1 /* NSBundle+FABundle.h in Headers */,
+				D22291113B67C4810D93E4C88F1FCFDF /* UINavigationController+FALanguageNavigationController.h in Headers */,
+				0FB8578F4FFA9A39EC31E8FA9C9CCCFD /* UIView+FALanguageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		270157ECD4EE0731AD8160B9E1C228CD /* FALanguage */ = {
+		2136D13A38AAE9F912C92416A1C2C084 /* Pods-FALanguage_Example-FALanguage_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D73BA08D8C6BC88BE37FEB0BA581BD7 /* Build configuration list for PBXNativeTarget "FALanguage" */;
+			buildConfigurationList = 12E1E059D01F0F7DCF8209290F55AFC8 /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example-FALanguage_Tests" */;
 			buildPhases = (
-				563E692EB5AD118E832EC2CC6BE52F4C /* Sources */,
-				3A8B878D882FD2ED4E5ACF904FF3C7CB /* Frameworks */,
-				29490FCB91E3721D4CB0B4D323A6F671 /* Headers */,
+				BB8B3E9DEA6964B6064A3D8C5170D265 /* Sources */,
+				1D41AEA1D8466D99F48A9E8D6A1FA306 /* Frameworks */,
+				8650C308E176CF93B3B7A94B38068EF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E43866D03676CD505065F322FEDEE41 /* PBXTargetDependency */,
+			);
+			name = "Pods-FALanguage_Example-FALanguage_Tests";
+			productName = "Pods-FALanguage_Example-FALanguage_Tests";
+			productReference = 2C8B9744672D96471393A2591E2224FC /* Pods_FALanguage_Example_FALanguage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		232FB9ECB03051E6433EB136F7E41D3C /* Pods-FALanguage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CC7E738B4AFEBDA55D7235F170DF0A /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example" */;
+			buildPhases = (
+				2B3AE7146368681ECCF8A37EEE9AF899 /* Sources */,
+				9E358BEF44AAA831B5CD430375059B70 /* Frameworks */,
+				DEB4ABE2594992A5094CE79E404ED50D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AD5D3C697BC944E04C2788BB4AB464 /* PBXTargetDependency */,
+			);
+			name = "Pods-FALanguage_Example";
+			productName = "Pods-FALanguage_Example";
+			productReference = A1A177044D90C36E6760B31BF6EE66FF /* Pods_FALanguage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B18892A6635B1F89D27A79FA955599BD /* FALanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9884B2CA7632CA6C13034C6C991F38E /* Build configuration list for PBXNativeTarget "FALanguage" */;
+			buildPhases = (
+				91D4E5994174573DE81C262F69569CE8 /* Sources */,
+				FE1ED32C2D967B67F26E2042A6C045D6 /* Frameworks */,
+				F8B210A42C2C899B08532AE681978A46 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -291,50 +332,14 @@
 			productReference = 2E22309B6C0C79AD71FFAEF9BF9FEA94 /* FALanguage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		81E59D0C1E3EA334C30B63535A97DA7A /* Pods-FALanguage_Example-FALanguage_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0204F364ADCBEA653683B1D6FE9AC198 /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example-FALanguage_Tests" */;
-			buildPhases = (
-				F744517E0FCAC7FD78CEECC3EA6851C5 /* Sources */,
-				CF212492C0A4E17B51F123E99283B54F /* Frameworks */,
-				B8E7FC9DDB44EAABB7390DB45AF776F1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5911461DDB052C9C837FF537C2F83F17 /* PBXTargetDependency */,
-			);
-			name = "Pods-FALanguage_Example-FALanguage_Tests";
-			productName = "Pods-FALanguage_Example-FALanguage_Tests";
-			productReference = 2C8B9744672D96471393A2591E2224FC /* Pods_FALanguage_Example_FALanguage_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED483061955A291ED9C73EC631FABFC4 /* Pods-FALanguage_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B10FC06B1403136EC928A496836810AE /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example" */;
-			buildPhases = (
-				6C8DEB0B949C6D7EDA48D0BF6D2AE212 /* Sources */,
-				30A02C4578FCFD679997C826C6886A45 /* Frameworks */,
-				389AC4576CE111BBE7EFF71D998A5419 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0557BE28410FDC0DE25840B46345DDBC /* PBXTargetDependency */,
-			);
-			name = "Pods-FALanguage_Example";
-			productName = "Pods-FALanguage_Example";
-			productReference = A1A177044D90C36E6760B31BF6EE66FF /* Pods_FALanguage_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,336 +353,377 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				270157ECD4EE0731AD8160B9E1C228CD /* FALanguage */,
-				ED483061955A291ED9C73EC631FABFC4 /* Pods-FALanguage_Example */,
-				81E59D0C1E3EA334C30B63535A97DA7A /* Pods-FALanguage_Example-FALanguage_Tests */,
+				B18892A6635B1F89D27A79FA955599BD /* FALanguage */,
+				232FB9ECB03051E6433EB136F7E41D3C /* Pods-FALanguage_Example */,
+				2136D13A38AAE9F912C92416A1C2C084 /* Pods-FALanguage_Example-FALanguage_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		563E692EB5AD118E832EC2CC6BE52F4C /* Sources */ = {
+		2B3AE7146368681ECCF8A37EEE9AF899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DA30AB40653FC296F30E6237740CE4 /* FALanguage-dummy.m in Sources */,
-				AA851903B67643762B25A08E8F75FD05 /* NSBundle+FABundle.m in Sources */,
-				FD933B5AB5D3EFD1D64455B37B16F7BF /* UIView+FAUIView.m in Sources */,
+				3CDABB4EA303482BEAFE35618302A9FA /* Pods-FALanguage_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C8DEB0B949C6D7EDA48D0BF6D2AE212 /* Sources */ = {
+		91D4E5994174573DE81C262F69569CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C3834A0A4B3F8864E5859E770FBCE6 /* Pods-FALanguage_Example-dummy.m in Sources */,
+				3028190ACA541831C21FB009A721DA96 /* FALanguage-dummy.m in Sources */,
+				20D181C4704D4AA0A4AFEA099CAB7061 /* NSBundle+FABundle.m in Sources */,
+				C4BD96AFB15B3D3FA31DD8C0AA940688 /* UINavigationController+FALanguageNavigationController.m in Sources */,
+				B9F96B741D5CFF7DA2533D3389DF1196 /* UIView+FALanguageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F744517E0FCAC7FD78CEECC3EA6851C5 /* Sources */ = {
+		BB8B3E9DEA6964B6064A3D8C5170D265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1B1A04E21125A06E13C27601BD8B05 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m in Sources */,
+				C3185A6D70B93FC80891769B62632A83 /* Pods-FALanguage_Example-FALanguage_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0557BE28410FDC0DE25840B46345DDBC /* PBXTargetDependency */ = {
+		29AD5D3C697BC944E04C2788BB4AB464 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FALanguage;
-			target = 270157ECD4EE0731AD8160B9E1C228CD /* FALanguage */;
-			targetProxy = A6B4CB272AD8C6277C5B7DA1E389A086 /* PBXContainerItemProxy */;
+			target = B18892A6635B1F89D27A79FA955599BD /* FALanguage */;
+			targetProxy = BBC104F75AC41BD17E47A51BC9BA7BBE /* PBXContainerItemProxy */;
 		};
-		5911461DDB052C9C837FF537C2F83F17 /* PBXTargetDependency */ = {
+		5E43866D03676CD505065F322FEDEE41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FALanguage;
-			target = 270157ECD4EE0731AD8160B9E1C228CD /* FALanguage */;
-			targetProxy = 66F38F282A1A18AA5967207E450BE171 /* PBXContainerItemProxy */;
+			target = B18892A6635B1F89D27A79FA955599BD /* FALanguage */;
+			targetProxy = 1DA05FF148468E19316C82B0C006041F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		28DB96DB793D2938F959C964D5E22D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBAC9C8D66E4F410D620DF992DA0344 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Pods-FALanguage_Example-FALanguage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FALanguage_Example_FALanguage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37F353E1C97897C73D1487B461B4BA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3893E5AD17DEE62FFF2753335F0B4B0E /* Pods-FALanguage_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example/Pods-FALanguage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FALanguage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B67359E8F27AFE254959F5B4CECF062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E36980060F0B1354201AB6CC69AF8B7 /* Pods-FALanguage_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example/Pods-FALanguage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FALanguage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C61BCDD501054034429BDCF5A65F706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0BAA6F9CE3AA5CA198D7F37CE02C13 /* FALanguage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FALanguage/FALanguage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FALanguage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FALanguage/FALanguage.modulemap";
+				PRODUCT_NAME = FALanguage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD69A9A223054D0420E38875D0A5C22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0BAA6F9CE3AA5CA198D7F37CE02C13 /* FALanguage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FALanguage/FALanguage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FALanguage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FALanguage/FALanguage.modulemap";
+				PRODUCT_NAME = FALanguage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D650C64CB9C8EDF83A86700EBD00E4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED386FD6B3E5E48C0D034AB4B1D22457 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Pods-FALanguage_Example-FALanguage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FALanguage_Example_FALanguage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		31F4CC459ECDEBE3728F96ED160FCCBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F15100DC310CF8CAAADAEAA85B57BB4 /* FALanguage.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FALanguage/FALanguage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FALanguage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FALanguage/FALanguage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FALanguage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5AB6DDB5F16805AD2D5150FBFF991D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF16D9C42858C3EFF215891555FF0557 /* Pods-FALanguage_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example/Pods-FALanguage_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FALanguage_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		61FC372E06972A699D1D7BD170DAB058 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A578853FB3FB239986FDD7B9BD171B6 /* Pods-FALanguage_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example/Pods-FALanguage_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FALanguage_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		894BEEC40226B68B3C5B843B468980BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F15100DC310CF8CAAADAEAA85B57BB4 /* FALanguage.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FALanguage/FALanguage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FALanguage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FALanguage/FALanguage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FALanguage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9B4E521F4E4887D990230FAA3F4DAE11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AF6D5D86AE4372843F5661664FF22B2 /* Pods-FALanguage_Example-FALanguage_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Pods-FALanguage_Example-FALanguage_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FALanguage_Example_FALanguage_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F06EBAB216ECA3EE9CB03ECA34A59C49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07D5306347FB77BE11A2EFEF3BA4395 /* Pods-FALanguage_Example-FALanguage_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FALanguage_Example-FALanguage_Tests/Pods-FALanguage_Example-FALanguage_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FALanguage_Example_FALanguage_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0204F364ADCBEA653683B1D6FE9AC198 /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example-FALanguage_Tests" */ = {
+		12E1E059D01F0F7DCF8209290F55AFC8 /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example-FALanguage_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B4E521F4E4887D990230FAA3F4DAE11 /* Debug */,
-				F06EBAB216ECA3EE9CB03ECA34A59C49 /* Release */,
+				28DB96DB793D2938F959C964D5E22D59 /* Debug */,
+				D650C64CB9C8EDF83A86700EBD00E4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -685,26 +731,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034014829C1E4434983CF3A690C12017 /* Debug */,
-				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D73BA08D8C6BC88BE37FEB0BA581BD7 /* Build configuration list for PBXNativeTarget "FALanguage" */ = {
+		72CC7E738B4AFEBDA55D7235F170DF0A /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31F4CC459ECDEBE3728F96ED160FCCBA /* Debug */,
-				894BEEC40226B68B3C5B843B468980BC /* Release */,
+				5B67359E8F27AFE254959F5B4CECF062 /* Debug */,
+				37F353E1C97897C73D1487B461B4BA8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B10FC06B1403136EC928A496836810AE /* Build configuration list for PBXNativeTarget "Pods-FALanguage_Example" */ = {
+		B9884B2CA7632CA6C13034C6C991F38E /* Build configuration list for PBXNativeTarget "FALanguage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AB6DDB5F16805AD2D5150FBFF991D35 /* Debug */,
-				61FC372E06972A699D1D7BD170DAB058 /* Release */,
+				CD69A9A223054D0420E38875D0A5C22B /* Debug */,
+				7C61BCDD501054034429BDCF5A65F706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

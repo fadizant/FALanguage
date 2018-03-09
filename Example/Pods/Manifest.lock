@@ -1,5 +1,5 @@
 PODS:
-  - FALanguage (0.1.0)
+  - FALanguage (0.1.2)
 
 DEPENDENCIES:
   - FALanguage (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FALanguage: 45017773a7e0a0298ede5d3c46c50c997f7df886
+  FALanguage: 185c24a9449ab127efaa1a997034328955ac70b4
 
 PODFILE CHECKSUM: 19ba733b775970fbe5683f996240e59f4de76f50
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.4.0
